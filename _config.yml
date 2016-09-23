@@ -13,8 +13,8 @@ permalink: /:year/:month/:title/
 owner:
     name: #
     twitter: #
-    github: #
-    disqus_shortname: #
+    github: ZeaBigData
+    disqus_shortname: yangjl
 
 ga_id: #
 ga_username: #
@@ -22,3 +22,8 @@ ga_username: #
 timezone: Africa/Accra
 
 baseurl:            ""
+
+comments:
+  disqus:
+    short_name: yangjl
+    api_key:    YOUR-DISQUS-PUBLIC-KEY-HERE
