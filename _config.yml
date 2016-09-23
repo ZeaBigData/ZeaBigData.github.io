@@ -1,5 +1,5 @@
-name: Wangana
-description:  Jekyll theme
+name: ZeaBigData
+description:  A platform for NGS data curation
 
 sass:
   sass_dir: assets/css/_sass
@@ -9,7 +9,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: https://iamnii.github.io/wangana
+url: ""
 permalink: /:year/:month/:title/
 owner:
     name: #
@@ -21,3 +21,5 @@ ga_id: #
 ga_username: #
 
 timezone: Africa/Accra
+
+baseurl:            ""
