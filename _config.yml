@@ -5,11 +5,10 @@ sass:
   sass_dir: assets/css/_sass
   style: :compressed
 
-markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: "https://zeabigdata.github.io/zeasite/"
+url: ""
 permalink: /:year/:month/:title/
 owner:
     name: #
