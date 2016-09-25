@@ -1,5 +1,5 @@
 name: ZeaBigData
-description:  A platform for NGS data curation
+description:  A community data sharing platform
 
 sass:
   sass_dir: assets/css/_sass
@@ -19,7 +19,7 @@ owner:
 ga_id: #
 ga_username: #
 
-timezone: Africa/Accra
+timezone: UTC
 
 baseurl:            ""
 

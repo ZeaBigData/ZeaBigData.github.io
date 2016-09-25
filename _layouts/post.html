@@ -6,12 +6,11 @@ layout: default
     	<div class="page-title">
     		{{ page.title }}
     		<div class="meta">
-                {% if site.owner.name %}
-                By {{site.owner.name}},
+                {% if page.author %}
+                By {{page.author}},
                 {% endif %}
     			<time class="timeago" datetime="{{ page.date }}">{{ page.date |  date: "%A %-d %B %Y" }}</time>,
     			<a href="{{ page.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a>
-    			comments.
     		</div>
     	</div>
         <div class="page-content">
