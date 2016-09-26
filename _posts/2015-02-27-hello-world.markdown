@@ -3,6 +3,8 @@ layout: post
 title: Hello world
 date: 2014-03-27
 author: Jinliang Yang
+editor: X
+reviewer: Y
 category: [notes, ZeaGBS, ZeaWGS, ZesSNP50k, ZeaTx, ZeaMe ]
 tag: [test, test2]
 comments: true
