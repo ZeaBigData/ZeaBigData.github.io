@@ -6,11 +6,15 @@ layout: default
     	<div class="page-title">
     		{{ page.title }}
     		<div class="meta">
-                {% if page.author %}
-                By {{page.author}},
-                {% endif %}
+          {% if page.author %} By {{page.author}}, {% endif %}
     			<time class="timeago" datetime="{{ page.date }}">{{ page.date |  date: "%A %-d %B %Y" }}</time>,
     			<a href="{{ page.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a>
+    		</div>
+        <div class="meta">
+          {% if page.editor %} Edited by {{page.editor}} {% endif %}
+    		</div>
+        <div class="meta">
+          {% if page.reviewer %} Reviewed by {{page.reviewer}} {% endif %}
     		</div>
     	</div>
         <div class="page-content">
