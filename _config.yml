@@ -22,7 +22,7 @@ ga_username: #
 
 timezone:                      UTC
 
-baseurl:                       ""
+baseurl:                       "/"
 
 comments:
   disqus:
