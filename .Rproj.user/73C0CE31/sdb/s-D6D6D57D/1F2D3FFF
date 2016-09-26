@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "name:                          ZeaBigData\ndescription:                   A community curated data sharing platform\n\nsass:\n  sass_dir:                    assets/css/_sass\n  style:                       :compressed\n\nredcarpet:\n  extensions:                  [\"no_intra_emphasis\", \"tables\", \"fenced_code_blocks\",\n                                \"autolink\", \"strikethrough\", \"superscript\"]\n\nurl:                           \"\"\npermalink:                     /:year/:month/:title/\nowner:\n    name: #\n    twitter: #\n    github:                    ZeaBigData\n    disqus_shortname:          yangjl\n\nga_id: #\nga_username: #\n\ntimezone:                      UTC\n\nbaseurl:                       \"\"\n\ncomments:\n  disqus:\n    short_name:                yangjl\n    api_key:                   YOUR-DISQUS-PUBLIC-KEY-HERE\n",
+    "contents" : "name:                          ZeaBigData\ndescription:                   A community curated data sharing platform\n\nsass:\n  sass_dir:                    assets/css/_sass\n  style:                       :compressed\n\nredcarpet:\n  extensions:                  [\"no_intra_emphasis\", \"tables\", \"fenced_code_blocks\",\n                                \"autolink\", \"strikethrough\", \"superscript\"]\n\nurl:                           \"\"\npermalink:                     /:year/:month/:title/\nowner:\n    name: #\n    twitter: #\n    github:                    ZeaBigData\n    disqus_shortname:          yangjl\n\nga_id: #\nga_username: #\n\ntimezone:                      UTC\n\nbaseurl:                       \"/\"\n\ncomments:\n  disqus:\n    short_name:                yangjl\n    api_key:                   YOUR-DISQUS-PUBLIC-KEY-HERE\n",
     "created" : 1474849264411.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "98850935",
+    "hash" : "1228641848",
     "id" : "1F2D3FFF",
-    "lastKnownWriteTime" : 1474855082,
-    "last_content_update" : 1474855082,
+    "lastKnownWriteTime" : 1474855751,
+    "last_content_update" : 1474855751,
     "path" : "~/Documents/Github/zeabigdata.github.io/_config.yml",
     "project_path" : "_config.yml",
     "properties" : {

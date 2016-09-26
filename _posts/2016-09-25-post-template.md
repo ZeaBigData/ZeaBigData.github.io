@@ -17,6 +17,8 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 
 
+
+
 ## R Markdown
 
 
@@ -43,9 +45,13 @@ summary(cars)
 
 
 
+
 [![Jekyll with servr and knitr](http://i.imgur.com/gKVGhiP.png)](http://i.imgur.com/gKVGhiP.png)
 
 You can also embed plots, for example:
 
+![plot of chunk pressure](/figure/source/2016-09-25-post-template/pressure-1.png)
 
+this gonna kill me.
 
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
