@@ -8,7 +8,7 @@ local({
   if (markdown == 'kramdown') {
     knitr::render_jekyll()
   } else knitr::render_markdown()
-
+  
   # input/output filenames are passed as two additional arguments to Rscript
   a = commandArgs(TRUE)
   d = gsub('^_|[.][a-zA-Z]+$', '', a[1])
