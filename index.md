@@ -20,30 +20,27 @@ The major purposes of this platform are:
 
 ### How does it work?
 
-First of all, this platform (or website) is open accessed on github as [ZeaBigData](https://github.com/ZeaBigData).
+First of all, this platform, including the source codes of this website, can be open accessed via github as [ZeaBigData](https://github.com/ZeaBigData).
+To minimize the maintenance load, people can `Git clone` the site, write a post, and create a pull request to add their contributions to the website (see [instruction]()).
 
 
-
-
-We are currently supported by maize researchers from:  
+We are proudly supported by maize researchers from:  
 - [X lab](),  
 - [Y lab](),  
 - and [Z lab]().  
 
 
-### How to contribute?
+### What can you contribute?
 
 You can contribute by providing:
 
-1. links to raw data or re-processed versions.  
-2. data summary statistics.  
-3. data analyses pipelines.  
+1. links to `raw data` or processed versions.  
+2. write `data posts` to provide data summary statistics.  
+3. write `pipelines posts` to discuss analyses pipelines.  
+4. Edit or review `posts`.  
+5. Correct grammar, typo, error.   
+6. Test pipelines.  
+7. ...  
 
-```
-
-###   
-Git clone
-
-```
 
 ---

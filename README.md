@@ -33,4 +33,4 @@ git push origin my-new-feature
 Open [issues](https://github.com/ZeaBigData/ZeaBigData.github.io/issues) if you run into trouble or have suggestions. Pull Requests always welcome.
 
 ## Copyright & License
-The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)
+The [MIT License](LICENSE) (MIT), Copyright (c) 2016.
