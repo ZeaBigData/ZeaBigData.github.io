@@ -41,7 +41,7 @@ summary(cars)
 
 ## Including Plots
 
-this gonna kill me.
+
 
 [![Jekyll with servr and knitr](http://i.imgur.com/gKVGhiP.png)](http://i.imgur.com/gKVGhiP.png)
 
