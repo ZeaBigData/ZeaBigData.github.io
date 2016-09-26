@@ -1,29 +1,30 @@
-name: ZeaBigData
-description:  A community data sharing platform
+name:                          ZeaBigData
+description:                   A community curated data sharing platform
 
 sass:
-  sass_dir: assets/css/_sass
-  style: :compressed
+  sass_dir:                    assets/css/_sass
+  style:                       :compressed
 
 redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+  extensions:                  ["no_intra_emphasis", "tables", "fenced_code_blocks",
+                                "autolink", "strikethrough", "superscript"]
 
-url: ""
-permalink: /:year/:month/:title/
+url:                           ""
+permalink:                     /:year/:month/:title/
 owner:
     name: #
     twitter: #
-    github: ZeaBigData
-    disqus_shortname: yangjl
+    github:                    ZeaBigData
+    disqus_shortname:          yangjl
 
 ga_id: #
 ga_username: #
 
-timezone: UTC
+timezone:                      UTC
 
-baseurl:            ""
+baseurl:                       ""
 
 comments:
   disqus:
-    short_name: yangjl
-    api_key:    YOUR-DISQUS-PUBLIC-KEY-HERE
+    short_name:                yangjl
+    api_key:                   YOUR-DISQUS-PUBLIC-KEY-HERE

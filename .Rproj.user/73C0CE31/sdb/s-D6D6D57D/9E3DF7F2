@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "_site\n.DS_Store\nnbproject\n.sass-cache\n.Rproj.use\n_source\n_draft\n",
+    "created" : 1474847782268.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3996674079",
+    "id" : "9E3DF7F2",
+    "lastKnownWriteTime" : 1474847798,
+    "last_content_update" : 1474847798407,
+    "path" : "~/Documents/Github/zeabigdata.github.io/.gitignore",
+    "project_path" : ".gitignore",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "gitignore"
+}

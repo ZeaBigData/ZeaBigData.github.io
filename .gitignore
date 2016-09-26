@@ -2,3 +2,6 @@ _site
 .DS_Store
 nbproject
 .sass-cache
+.Rproj.use
+_source
+_draft

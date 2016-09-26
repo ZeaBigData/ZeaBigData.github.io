@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "local({\n  # fall back on '/' if baseurl is not specified\n  baseurl = servr:::jekyll_config('.', 'baseurl', '/')\n  knitr::opts_knit$set(base.url = baseurl)\n  # fall back on 'kramdown' if markdown engine is not specified\n  markdown = servr:::jekyll_config('.', 'markdown', 'kramdown')\n  # see if we need to use the Jekyll render in knitr\n  if (markdown == 'kramdown') {\n    knitr::render_jekyll()\n  } else knitr::render_markdown()\n\n  # input/output filenames are passed as two additional arguments to Rscript\n  a = commandArgs(TRUE)\n  d = gsub('^_|[.][a-zA-Z]+$', '', a[1])\n  knitr::opts_chunk$set(\n    fig.path   = sprintf('figure/%s/', d),\n    cache.path = sprintf('cache/%s/', d)\n  )\n  # set where you want to host the figures (I store them in my Dropbox Public\n  # folder, and you might prefer putting them in GIT)\n  if (Sys.getenv('USER') == 'yihui') {\n    # these settings are only for myself, and they will not apply to you, but\n    # you may want to adapt them to your own website\n    knitr::opts_chunk$set(fig.path = sprintf('%s/', gsub('^.+/', '', d)))\n    knitr::opts_knit$set(\n      base.dir = '~/Dropbox/Public/jekyll/',\n      base.url = 'http://db.yihui.name/jekyll/'\n    )\n  }\n  knitr::opts_knit$set(width = 70)\n  knitr::knit(a[1], a[2], quiet = TRUE, encoding = 'UTF-8', envir = .GlobalEnv)\n})\n",
+    "created" : 1474850492125.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1190221973",
+    "id" : "AF57D604",
+    "lastKnownWriteTime" : 1474852276,
+    "last_content_update" : 1474852276359,
+    "path" : "~/Documents/Github/zeabigdata.github.io/build.R",
+    "project_path" : "build.R",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
