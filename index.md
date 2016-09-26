@@ -2,24 +2,33 @@
 layout: home
 ---
 
-### Why we do this:
 
-Tons of data have being generated. But not all of them have been extensively studied.
-We believe published data can be repurposed for answering different questions, unless 1) we know the data well, 2) they have been probably processed, and 3) they are in a handy format.
+Tons of NGS data and other data have being generated in maize community. But not all of them have been extensively studied.
+We believe published data can be repurposed for answering different questions.
+Public data curated by domain experts (better to be the data generators) is critical for their re-usage.
+From our past research experience, we learned that data tweaking and hammering is a tedious work. The smart maize researchers should spend their precious time on developing and testing hypothesis rather than processing, formatting, and reformatting theirs or others' raw data.
 
-Here, we are not intend to replace `NCBI`, `iPlant`, `maizeGDB`, or even `Panzea`. We do not responsible for hosting and generating data.
+With this platform, we are trying to bring `published data`, `data producers`, and version controlled `pipelines` together.
+But we are not intend to replace current database systems. Neither do we want to host or quality check the published data.  
 
-This light platform is trying to:
+The major purposes of this platform are:  
 
-1. Point to you the exiting data sets.  
-2. Provide clean data sets in various user friendly formats.  
-3. Provide reproducible data processing pipelines.   
-4. Teach, learn and discuss about data analyzing practices.
+1. *Pointing the existing data sets.*   
+2. *Providing reproducible data processing pipelines.*   
+3. *Learning, discussing, and improving data analyzing practices.*
 
 
-### Who we are?
+### How does it work?
 
-We are maize researchers from [X lab](), [Y lab](), [Z lab]().
+First of all, this platform (or website) is open accessed on github as [ZeaBigData](https://github.com/ZeaBigData).
+
+
+
+
+We are currently supported by maize researchers from:  
+- [X lab](),  
+- [Y lab](),  
+- and [Z lab]().  
 
 
 ### How to contribute?
@@ -30,6 +39,11 @@ You can contribute by providing:
 2. data summary statistics.  
 3. data analyses pipelines.  
 
+```
 
+###   
+Git clone
+
+```
 
 ---

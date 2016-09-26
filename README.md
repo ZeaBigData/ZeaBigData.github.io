@@ -1,20 +1,33 @@
-![favicon](https://raw.github.com/iamnii/wangana/master/favicon.png) ZeaBigData
+ZeaBigData
 ==============
 
-Wangana is responsive [Jekyll](http://jekyllrb.com/) theme, perfect for powering your GitHub hosted blog. Created with love by [iamnii](https://twitter.com/_iamnii).
-
-* Demo [here](http://iamnii.github.io/wangana/)
+A community curated data sharing platform.
 
 ## Contributing
-1. Fork the theme ( https://github.com/iamnii/wangana/fork ) The `master` branch is for development and pull requests. The `gh-pages` branch is for the demo page; don't bother.
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1. Clone or Fork this repo.
+```
+git clone git@github.com:ZeaBigData/ZeaBigData.github.io.git
+```
+2. Create your own branch
+```
+git checkout -b my-new-feature
+```
+3. Create or edit files in `_posts`.
+Note, to add a new post, follow our naming convention `year-month-day-some-words-as-title.md`.
+
+4. Commit your changes
+```
+git commit -am 'Add some feature by XYZ'
+```
+
+5. Push to the branch
+```
+git push origin my-new-feature
+```
+6. Create a new Pull Request
 
 ## Issues
-[Open](https://github.com/iamnii/wangana/issues/new) issues if you run into trouble or have suggestions. Pull Requests always welcome.
-
+Open [issues](https://github.com/ZeaBigData/ZeaBigData.github.io/issues) if you run into trouble or have suggestions. Pull Requests always welcome.
 
 ## Copyright & License
 The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)
