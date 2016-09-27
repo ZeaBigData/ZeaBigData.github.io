@@ -25,7 +25,7 @@ To minimize the maintenance load, people can `Git clone` the site, write a post,
 
 
 We are proudly supported by maize researchers from:  
-- [X lab](),  
+- [Ross-Ibarra Lab](http://www.rilab.org/),  
 - [Y lab](),  
 - and [Z lab]().  
 
