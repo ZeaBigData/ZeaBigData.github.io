@@ -23,7 +23,7 @@ To minimize the maintenance load, users from the community can directly access t
 
 
 We are proudly supported by maize researchers from:  
-- [X lab](),  
+- [Ross-Ibarra Lab](http://www.rilab.org/),  
 - [Y lab](),  
 - and [Z lab]().  
 
