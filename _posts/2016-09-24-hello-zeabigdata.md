@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hello world
-date: 2014-03-27
+title: Hello ZeaBigData
+date: 2016-09-24
 author: Jinliang Yang
 editor: X
 reviewer: Y
@@ -18,7 +18,7 @@ This is something else.
 ```
 layout: post
 title: Hello world
-date: 2014-03-27
+date: 2016-09-24
 author: Jinliang Yang
 category: [notes, ZeaGBS, ZeaWGS, ZesSNP50k, ZeaTx, ZeaMe ]
 tag: [test, test2]
