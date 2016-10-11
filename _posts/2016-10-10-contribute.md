@@ -73,4 +73,4 @@ git push origin my-new-feature
 
 ##### 6. Create a new Pull Request
 
-![Imgur](http://i.imgur.com/kLsGeEl.png)
+![Imgur](http://i.imgur.com/jiPqAm8.png?1)
