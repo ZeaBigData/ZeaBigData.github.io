@@ -71,6 +71,6 @@ git commit -am 'Add some feature by XYZ'
 git push origin my-new-feature
 ```
 
-#### 6. Create a new Pull Request
+#### 6. Create a new [Pull Request](https://github.com/ZeaBigData/ZeaBigData.github.io/pulls)
 
-![Imgur](http://i.imgur.com/jiPqAm8.png?2)
+![Imgur](http://i.imgur.com/9zaA5IK.png)
