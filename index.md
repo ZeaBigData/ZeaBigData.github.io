@@ -19,13 +19,13 @@ The major purposes of this platform are:
 ### How does it work?
 
 This platform, including the source codes of this website, can be open accessed via  [ZeaBigData](https://github.com/ZeaBigData) hosted on github.
-To minimize the maintenance load, users from the community can directly access the site (see [instruction]()),
-write a post (using a very simple `markdown` language) or make a comment.
-The post or edits will appear on the website soon.
+To minimize the maintenance load, users from the community can directly access the [site](https://github.com/ZeaBigData/ZeaBigData.github.io),
+write a post (using a very simple `markdown` language, see [instruction](https://zeabigdata.github.io/2016/10/contribute/)) or make a comment.
+The posts or edits will appear on the website soon.
 
 
 We are proudly supported by maize researchers from:  
-- [Beissinger lab](http://beissingerlab.org/),  
+- [Beissinger Lab](http://beissingerlab.org/),  
 - [Ross-Ibarra Lab](http://www.rilab.org/),  
 - and [Z lab]().  
 
@@ -34,7 +34,7 @@ We are proudly supported by maize researchers from:
 
 You can contribute by following ways:
 
-1. Provide your expertise or serve as a volunteer.
+1. Serve as a volunteer for site maintenance.
 2. Send links to `raw data` or processed versions.  
 3. Write `technic posts` to summarize data statistics.  
 4. Write `pipelines posts` to discuss analyses pipelines.  
