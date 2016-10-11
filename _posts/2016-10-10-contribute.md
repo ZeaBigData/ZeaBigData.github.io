@@ -41,6 +41,8 @@ layout: post
 title: "How to contribute"  
 date: 2016-10-10  
 author: Jinliang Yang  
+editor: X
+reviewer: Y
 categories: [tutorial, general]  
 tags: [github, general]  
 comments: true  
@@ -51,12 +53,15 @@ archive: false
 
 #### YAML variables:
 - layout: The layout to use, i.e. `post`.
-- title, date, and author: The title of the post, created by whom at what time.
+- title/date: The title of the post, created at what time.
+- author/editor/reviewer: Names of contributors of this post.
 - category/categories/tag/tags: Define the categories and tags as YAML lists or a space-separated string. For each category and tag, we will generate a list in `Projects` and `Tags` pages.
 - comments: Set to true to allow for comments
 - archive: Set to true to being rendered as a achieved post only (not show in the `Posts` page).
 
+#### Abstract
 
+The first paragraph in a post will serve as an abstract or short summary. It will appear in the list of `Posts` page by clicking `gist`.
 
 
 #### 4. Commit your changes
