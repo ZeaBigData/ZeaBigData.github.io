@@ -25,8 +25,8 @@ The post or edits will appear on the website soon.
 
 
 We are proudly supported by maize researchers from:  
+- [Beissinger lab](http://beissingerlab.org/),  
 - [Ross-Ibarra Lab](http://www.rilab.org/),  
-- [Y lab](),  
 - and [Z lab]().  
 
 
