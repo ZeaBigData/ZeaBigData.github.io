@@ -26,8 +26,8 @@ The posts or edits will appear on the website soon.
 
 We are proudly supported by maize researchers from:  
 - [Beissinger Lab](http://beissingerlab.org/),  
-- [Liu Lab](http://plantgenomics.ksu.edu/liulab/),
-- [Ross-Ibarra Lab](http://www.rilab.org/),  
+- [Liu Lab](http://plantgenomics.ksu.edu/liulab/),  
+- [Ross-Ibarra Lab](http://www.rilab.org/),   
 - [Schnbale Lab@UNL](http://www.schnablelab.org/),  
 - and [... lab]().  
 
