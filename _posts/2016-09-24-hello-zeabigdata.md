@@ -8,7 +8,7 @@ reviewer: Y
 category: [notes, ZeaGBS, ZeaWGS, ZesSNP50k, ZeaTx, ZeaMe ]
 tag: [test, test2]
 comments: true
-archive: false
+archive: true
 ---
 
 The first paragraph serves as the abstract. The first paragraph serves as the abstract. The first paragraph serves as the abstract. The first paragraph serves as the abstract. The first paragraph serves as the abstract. The first paragraph serves as the abstract.

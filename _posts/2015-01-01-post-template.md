@@ -6,7 +6,7 @@ author: Your Name
 editor: Editor Name
 reviewer: Review Name
 categories: [tutorial, general]  
-tags: [github, general]  
+tags: [github, general, markdown]  
 comments: true  
 archive: true
 ---
