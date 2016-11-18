@@ -46,5 +46,8 @@ You can contribute by following ways:
 8. Use the data for your research.  
 9. ...  
 
+### How to contribute?
+
+Follow this [post](http://zeabigdata.org/2016/10/contribute/).
 
 ---
