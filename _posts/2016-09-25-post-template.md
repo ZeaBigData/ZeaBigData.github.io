@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "RNA-seq Diversity"
-date: 2016-11-17
+title: "Post Template using Rmd"
+date: 2016-09-25
 author: Jinliang Yang
 categories: [jekyll, rstats]
 tags: [knitr, servr, httpuv, websocket]
 comments: true
-archive: false
+archive: true
 
 ---
 
@@ -15,7 +15,7 @@ archive: false
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 
-```
+```{}
 Rscript -e "servr::jekyll(command ='jekyll serve -w')"
 ```
 
