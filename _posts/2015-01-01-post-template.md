@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "Post Template"
-date: 2016-09-25
-author: Jinliang Yang
-categories: [jekyll, rstats]
-tags: [knitr, servr, httpuv, websocket]
-comments: true
-archive: false
-
+date: 2015-01-01
+author: Your Name
+editor: Editor Name
+reviewer: Review Name
+categories: [tutorial, general]  
+tags: [github, general]  
+comments: true  
+archive: true
 ---
 
 
