@@ -15,10 +15,10 @@ We use [Markdown](http://daringfireball.net/projects/markdown/), an easy-to-read
 
 ### Steps for how to contribute to this site
 
-#### 1. Clone the source code of this website.
+#### 1. Fork it on Github to your own repo and Clone or download source code of this website.
 
 ```
-git clone git@github.com:ZeaBigData/ZeaBigData.github.io.git
+git clone git@github.com:YOUR_GITHUB_ID/ZeaBigData.github.io.git
 ```
 
 #### 2. Create your own branch.

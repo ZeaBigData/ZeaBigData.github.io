@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Atlas and Time Series RNA-seq Data Sets"
-date: 2016-11-18
+date: 2016-11-19
 author: Jinliang Yang
 
 categories: [RNA-seq]  
@@ -37,7 +37,7 @@ have obtained the time course transcriptomes for embryonic shoot apical meristem
 - Zea mays subsp. mays strain: White Crystal
 
 
-### 3. Dry seeds (0 hour)) to hour 192 from [Yu et al., 2015](https://www.ncbi.nlm.nih.gov//pubmed/25918418).
+### 3. Dry seeds (0 hour) to hour 192 from [Yu et al., 2015](https://www.ncbi.nlm.nih.gov//pubmed/25918418).
 
 - **Study description**: Using 22 transcriptomes of developing maize leaves from dry seeds to 192 h post imbibition, 
 we studied gene up- and down-regulation and functional transition during leaf development and inferred sets of strongly coexpressed genes. 
