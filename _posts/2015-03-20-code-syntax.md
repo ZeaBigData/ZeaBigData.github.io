@@ -2,6 +2,8 @@
 layout: post
 title: Code Syntax
 date: 2015-03-20
+categories: [tutorial]  
+tags: [github, markdown]
 comments: true
 archive: true
 ---

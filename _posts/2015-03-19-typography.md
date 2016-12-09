@@ -2,6 +2,8 @@
 layout: post
 title: Typograhy example
 date: 2015-03-19
+categories: [tutorial]  
+tags: [github, markdown]
 comments: true
 archive: true
 ---

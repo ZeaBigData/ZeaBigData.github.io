@@ -10,15 +10,15 @@ redcarpet:
                                 "autolink", "strikethrough", "superscript"]
 
 url:                           ""
-permalink:                     /:year/:month/:title/
+permalink:                     /:year/:month/:title
 owner:
     name: #
-    twitter: #
+    twitter:                   ZeaBigData
     github:                    ZeaBigData
     disqus_shortname:          yangjl
 
-ga_id: #
-ga_username: #
+ga_id:                         UA-48206713-3
+ga_username:                   auto
 
 timezone:                      UTC-8
 

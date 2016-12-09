@@ -5,8 +5,8 @@ date: 2015-01-01
 author: Your Name
 editor: Editor Name
 reviewer: Review Name
-categories: [tutorial, general]  
-tags: [github, general, markdown]  
+categories: [tutorial]  
+tags: [github, markdown]  
 comments: true  
 archive: true
 ---

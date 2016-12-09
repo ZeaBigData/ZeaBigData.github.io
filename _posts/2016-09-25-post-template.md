@@ -3,8 +3,8 @@ layout: post
 title: "Post Template using Rmd"
 date: 2016-09-25
 author: Jinliang Yang
-categories: [jekyll, rstats]
-tags: [knitr, servr, httpuv, websocket]
+categories: [tutorial]
+tags: [rstats, github]
 comments: true
 archive: true
 

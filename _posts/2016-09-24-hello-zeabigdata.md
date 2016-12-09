@@ -5,8 +5,8 @@ date: 2016-09-24
 author: Jinliang Yang
 editor: X
 reviewer: Y
-category: [notes, ZeaGBS, ZeaWGS, ZesSNP50k, ZeaTx, ZeaMe ]
-tag: [test, test2]
+categories: [tutorial]  
+tags: [github, notes]
 comments: true
 archive: true
 ---

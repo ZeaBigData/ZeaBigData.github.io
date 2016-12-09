@@ -3,8 +3,8 @@ layout: post
 title: "How to contribute"
 date: 2016-10-10
 author: Jinliang Yang
-categories: [tutorial, general]
-tags: [github, general]
+categories: [tutorial]
+tags: [github, note]
 comments: true
 archive: true
 ---
