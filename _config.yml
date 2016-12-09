@@ -10,7 +10,7 @@ redcarpet:
                                 "autolink", "strikethrough", "superscript"]
 
 url:                           ""
-permalink:                     /:year/:month/:title
+permalink:                     /:year/:month/:title/
 owner:
     name: #
     twitter:                   ZeaBigData
