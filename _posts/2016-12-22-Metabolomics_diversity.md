@@ -15,7 +15,7 @@ Several studies on maize natural variation of metabolomics traits.
 #### Data summary:  
 - **Study description**: 285 Dent inbreds crossed with two testers. Samples taken from plants grown in the field for metabolite analysis. Using ~56K SNPs and data from 130 metabolites authors calculate general combining abilities for 7 biomass and bioenergy related traits.  
 - **Genotypic Data**: MaizeSNP50, data not available.  
-- **Metabolite Data**: 130 metabolites measured (See supplementary material)[http://www.nature.com/ng/journal/v44/n2/extref/ng.1033-S1.pdf]. Raw data not provided.  
+- **Metabolite Data**: 130 metabolites measured [See supplementary material](http://www.nature.com/ng/journal/v44/n2/extref/ng.1033-S1.pdf). Raw data not provided.  
 - **Sample Size**: 285 Dent inbreds testcrossed with two testers giving a total of 570 testcrosses.  In the trials of each of the three maturity groups, 100 genotypes, including five common check genotypes, were randomized in a 20 × 5 α-lattice design with two replications and were planted in 2-row plots.   
 - **Tissue**:  5 cm cuts from fully developed third leaf collected 33 days after sowing.  
 
