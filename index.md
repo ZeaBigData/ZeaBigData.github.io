@@ -50,4 +50,8 @@ You can contribute by following ways:
 
 Follow this [post](http://zeabigdata.org/2016/10/contribute/).
 
+### ZeaBigData Hackathon 2017
+
+We will held the 1st ZeaBigData Hackathon at UC Davis. See [Schedule](hack2017/index.html).
+
 ---
