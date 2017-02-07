@@ -25,11 +25,15 @@ The posts or edits will appear on the website soon.
 
 
 We are proudly supported by maize researchers from:  
-- [Beissinger Lab](http://beissingerlab.org/),  
-- [Liu Lab](http://plantgenomics.ksu.edu/liulab/),  
 - [Ross-Ibarra Lab](http://www.rilab.org/),   
 - [Schnbale Lab@UNL](http://www.schnablelab.org/),  
 - and [... lab]().  
+
+We have got computational support support from XSEDE:  
+- PI: Jinliang Yang, University of Nebraska, Lincoln  
+- Request: Recount RNA-seq reads on AGPv4 genome to facilitate genetic studies for maize community  
+- Request Number: BIR170001  
+- End Date: 2018-02-05    
 
 
 ### What can you contribute to?
