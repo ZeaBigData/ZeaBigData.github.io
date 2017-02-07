@@ -16,40 +16,15 @@ archive: true
 
 
 
-
-{% highlight text %}
-## Creating a generic function for 'toJSON' from package 'jsonlite' in package 'googleVis'
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## 
-## Welcome to googleVis version 0.6.2
-## 
-## Please read Google's Terms of Use
-## before you start using the package:
-## https://developers.google.com/terms/
-## 
-## Note, the plot method of googleVis will by default use
-## the standard browser to display its output.
-## 
-## See the googleVis package vignettes for more details,
-## or visit http://github.com/mages/googleVis.
-## 
-## To suppress this message use:
-## suppressPackageStartupMessages(library(googleVis))
-{% endhighlight %}
-
 <!-- Table generated in R 3.2.0 by googleVis 0.6.2 package -->
-<!-- Tue Feb  7 15:22:36 2017 -->
+<!-- Tue Feb  7 15:27:31 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableID1180f11c96fd9 () {
+function gvisDataTableID119fd1d9f9c5c () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -91981,15 +91956,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableID1180f11c96fd9() {
-var data = gvisDataTableID1180f11c96fd9();
+function drawChartTableID119fd1d9f9c5c() {
+var data = gvisDataTableID119fd1d9f9c5c();
 var options = {};
 options["allowHtml"] = true;
 options["page"] = "enable";
 options["pageSize"] = 100;
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableID1180f11c96fd9')
+    document.getElementById('TableID119fd1d9f9c5c')
     );
     chart.draw(data,options);
     
@@ -92013,9 +91988,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableID1180f11c96fd9);
+callbacks.push(drawChartTableID119fd1d9f9c5c);
 })();
-function displayChartTableID1180f11c96fd9() {
+function displayChartTableID119fd1d9f9c5c() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -92039,10 +92014,10 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID1180f11c96fd9"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID119fd1d9f9c5c"></script>
  
 <!-- divChart -->
   
-<div id="TableID1180f11c96fd9" 
+<div id="TableID119fd1d9f9c5c" 
   style="width: 500; height: automatic;">
 </div>
