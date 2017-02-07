@@ -29,7 +29,7 @@ We are proudly supported by maize researchers from:
 - [Schnbale Lab@UNL](http://www.schnablelab.org/),  
 - and [... lab]().  
 
-We have got computational support support from XSEDE:  
+We have got computational support from XSEDE:  
 - PI: Jinliang Yang, University of Nebraska, Lincoln  
 - Request: Recount RNA-seq reads on AGPv4 genome to facilitate genetic studies for maize community  
 - Request Number: BIR170001  
@@ -56,6 +56,6 @@ Follow this [post](http://zeabigdata.org/2016/10/contribute/).
 
 ### ZeaBigData Hackathon 2017
 
-We will held the 1st ZeaBigData Hackathon at UC Davis. See [Schedule](hack2017/index.html).
+We will have the 1st ZeaBigData Hackathon at UC Davis, hosted by [Ross-Ibarra Lab](http://www.rilab.org/). See [Schedule](hack2017/index.html).
 
 ---
