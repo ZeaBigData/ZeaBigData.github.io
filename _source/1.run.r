@@ -1,9 +1,12 @@
 
 library(servr)
-jekyll(dir = ".", input = c(".", "_source", "_posts"), 
-       output = c(".", ".", "_posts"), script = c("Makefile", "build.R"), serve = FALSE, 
+jekyll(dir = ".", input = c("_source"), 
+       output = c("_posts"), script = c("Makefile", "build.R"), serve = FALSE, 
        command = "jekyll build")
 
-jekyll(dir = ".", input = c(".",  "_posts"), 
-       output = c(".",  "_posts"), script = c("Makefile", "build.R"), serve = FALSE, 
+
+
+### if you have _largepost to compile
+jekyll(dir = ".", input = c("_source", "_largepost"), 
+       output = c("_posts", "."), script = c("Makefile", "build.R"), serve = FALSE, 
        command = "jekyll build")
