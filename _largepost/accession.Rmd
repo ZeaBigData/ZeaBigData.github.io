@@ -1,0 +1,37 @@
+---
+layout: home
+title: "Post Template using Rmd"
+date: 2015-01-01
+title: "Accessions"
+author: "Jinliang Yang"
+categories: [tutorial, general]  
+tags: [github, general, markdown, jekyll, rstats, servr]  
+comments: true  
+archive: true
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r results='asis', eval=FALSE}
+#install.packages("xtable")
+library("xtable")
+d <- read.csv("~/Documents/Github/ZeaBigData/data/export_2017_02_07_03_48_11.csv")
+
+print.xtable(xtable(d[1:1000,]), type = "html", ,sanitize.text.function=function(x){x})
+
+```
+
+```{r results='asis', echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+library(googleVis)
+op <- options(gvis.plot.tag='chart')
+
+library("data.table")
+d <- fread("~/Documents/Github/ZeaBigData/data/export_2017_02_07_03_48_11.csv", data.table=FALSE)
+PopTable <- gvisTable(d[,c(1:4,6)], #formats=list(Population="#,###",'% of World Population'='#.#%'),
+                      options=list(page='enable', pageSize=100))
+plot(PopTable)
+```
