@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Typograhy example
-date: 2015-03-19
+author: Aimee
+date: 2017-03-19
 categories: [tutorial]
 tags: [github, markdown]
 comments: true
