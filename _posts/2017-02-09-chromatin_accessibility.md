@@ -13,9 +13,9 @@ archive: false
 
 Datasets assessing chromatin accessibility.
 
-##Chromatin Accessibility in Maize
+## Chromatin Accessibility in Maize
 
-###MNase
+### MNase
 
 1. Developing B73 ears were subjected to mild, intermediate, and severe MNase treatment.  
 Data available in SRA, not summarized, from [Gent et al., 2015](http://www.genetics.org/content/200/4/1105)
