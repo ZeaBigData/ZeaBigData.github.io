@@ -1,0 +1,43 @@
+---
+layout: home
+date: 2017-02-09
+title: "Hackathon 2017 Progress"
+author: "Jinliang Yang"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r results='asis', echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+library(googleVis)
+#op <- options(gvis.plot.tag='chart')
+library("plyr")
+#library("data.table")
+d <- read.delim("~/Documents/Github/ZeaBigData/data/zbd_stat.txt", header=TRUE)
+#d$datetime <- as.POSIXlt(d$post_date, format="%M/%d/%y")
+#d$date <- as.Date(d$datetime)
+#d <- subset(d, !is.na(date))
+#d$day <- d$datetime$hour
+
+#d$date <- format(d$post_date, "%d/%m/%y")
+#Motion=gvisMotionChart(d, 
+                       #idvar="post_curator", 
+                       #timevar="day",
+                       #colorvar="data_sample_size",
+                       #sizevar="data_file_size")
+#plot(Motion)
+d <- subset(d, !is.na(data_sample_size) & post_curator != "")
+res <- ddply(d, .(post_curator), nrow)
+names(res)[2] <- "datasets"
+#res <- ddply(d, .(post_curator), summarise,
+#             sets = nrow(post_date),
+#             samples = sum(data_sample_size))
+Combo <- gvisComboChart(res, xvar="post_curator",
+                        yvar=c( "datasets"),
+                        options=list(seriesType="bars",
+                                     series='{1: {type:"line"}}'))
+plot(Combo)
+
+```

@@ -3,7 +3,6 @@ layout: post
 title: "RNA-seq ASE Inbreds"
 date: 2016-12-11
 author: Rubén Rellán Álvarez
-
 categories: [RNA-seq]  
 tags: [RNA-seq, ASE, maize, NGS, Abiotic Stress]  
 comments: true  
