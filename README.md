@@ -5,29 +5,31 @@ A community curated data sharing platform.
 
 ## Contributing
 
-#### 1. Clone or Fork this repo.
+#### 1. **Fork** this repo and clone it.
 ```
-git clone git@github.com:ZeaBigData/ZeaBigData.github.io.git
+git clone git@github.com:MYID/ZeaBigData.github.io.git
 ```
 
-#### 2. Create your own branch
-```
-git checkout -b my-new-feature
-```
-#### 3. Create or edit files in `_posts`.
+#### 2. Create or edit files in `_posts`.
 Note, to add a new post, follow our naming convention `year-month-day-some-words-as-title.md`.
 
-#### 4. Commit your changes
+#### 3. Git add and Commit your changes
 ```
+git add year-month-day-some-words-as-title.md
 git commit -am 'Add some feature by XYZ'
 ```
 
-#### 5. Push to the branch
+#### 4. Push to the branch
+
+If it is your first push, you need to set up your upstream url for this repo:
+
 ```
-git push origin my-new-feature
+git remote set-url origin https://github.com/YOUID/myrepo.git
+git push
 ```
 
-#### 6. Create a new Pull Request
+
+#### 5. Create a new Pull Request
 
 ## Issues
 Open [issues](https://github.com/ZeaBigData/ZeaBigData.github.io/issues) if you run into trouble or have suggestions. Pull Requests always welcome.

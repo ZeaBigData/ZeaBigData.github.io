@@ -3,9 +3,8 @@ layout: post
 title: "RIL RNA-seq Data Sets"
 date: 2016-12-08
 author: Jinliang Yang
-
 categories: [RNA-seq]  
-tags: [RNA-seq, RIL, maize, NGS]  
+tags: [RIL, QTL, pheno]  
 comments: true  
 archive: false
 ---
@@ -34,5 +33,3 @@ Some RNA-seq data sets for RIL popualtions.
 - **SRA Study ID**: [ERP011069](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=ERP011069)
 - **Data Size**: 408 Gbp; and 265 Gb in size
 - **Phenotypic data**: [additional files](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-015-0735-9/MediaObjects/13059_2015_735_MOESM3_ESM.xlsx) from the paper
-
-

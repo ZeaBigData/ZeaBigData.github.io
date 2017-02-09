@@ -8,6 +8,7 @@ tags: [Metabolomics, maize, NGS, natural variation, GWAS]
 comments: true  
 archive: false
 ---
+
 Several studies on maize natural variation of metabolomics traits.
 
 ### 1.Genomic and metabolic prediction of complex heterotic traits in hybrid maize from [Riedelsheimer et al., 2012](http://www.nature.com/ng/journal/v44/n2/abs/ng.1033.html)
