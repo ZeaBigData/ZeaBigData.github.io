@@ -2,7 +2,7 @@
 layout: post
 title: "Atlas and Time Series RNA-seq Data Sets"
 date: 2017-02-09
-author: Wenbin Mei
+author: Jinliang Yang, Wenbin Mei
 
 categories: [RNA-seq]  
 tags: [RNA-seq, atlas, maize, NGS]  
