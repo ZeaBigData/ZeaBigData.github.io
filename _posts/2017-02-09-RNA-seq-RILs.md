@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RIL RNA-seq Data Sets"
-date: 2016-12-09
+date: 2017-02-09
 author: Wenbin Mei
 categories: [RNA-seq]  
 tags: [RIL, QTL, pheno]  
