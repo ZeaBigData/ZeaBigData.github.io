@@ -11,7 +11,7 @@ archive: false
 
 A large GBS dataset from SRA
 
-### 1.Genomic and metabolic prediction of complex heterotic traits in hybrid maize from [Riedelsheimer et al., 2012](http://www.nature.com/ng/journal/v44/n2/abs/ng.1033.html)
+### 1.Unpublished GBS datasets in the SRA
 
 #### Data summary:  
 - **Study description**: GBS on different Maize inbreds
