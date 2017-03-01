@@ -13,20 +13,142 @@ archive: true
 
 
 
+## GBS Data Summary:
 
-## GRIN Germplasm 
-
-Total Number of Accessions in GRIN genebank: [N=13,131](../page/accession/index.html)
-
-<!-- GeoChart generated in R 3.2.0 by googleVis 0.6.2 package -->
-<!-- Tue Feb 28 20:15:42 2017 -->
+<!-- Table generated in R 3.2.0 by googleVis 0.6.2 package -->
+<!-- Tue Feb 28 22:47:41 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID6ad3e88b4a5 () {
+function gvisDataTableID17cc3fdaaf87 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"2010 Ames Lines",
+2688,
+"Inbred",
+"yes"
+],
+[
+"Ames282",
+288,
+"Inbred",
+"yes"
+],
+[
+"NAM",
+6389,
+"RIL",
+"yes"
+],
+[
+"Old Maize Diversity",
+960,
+"Inbred",
+"yes"
+],
+[
+"HZAU panel",
+252,
+"Inbred",
+"yes"
+] 
+];
+data.addColumn('string','Population');
+data.addColumn('number','Size');
+data.addColumn('string','Type');
+data.addColumn('string','GBS');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartTableID17cc3fdaaf87() {
+var data = gvisDataTableID17cc3fdaaf87();
+var options = {};
+options["allowHtml"] = true;
+
+  var dataFormat1 = new google.visualization.NumberFormat({pattern:"#,###"});
+  dataFormat1.format(data, 1);
+
+    var chart = new google.visualization.Table(
+    document.getElementById('TableID17cc3fdaaf87')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "table";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartTableID17cc3fdaaf87);
+})();
+function displayChartTableID17cc3fdaaf87() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID17cc3fdaaf87"></script>
+ 
+<!-- divChart -->
+  
+<div id="TableID17cc3fdaaf87" 
+  style="width: 500; height: automatic;">
+</div>
+
+
+
+## GRIN Germplasm 
+
+Total Number of Accessions in GRIN genebank: [N=13,131](../page/accession/index.html)
+
+<!-- GeoChart generated in R 3.2.0 by googleVis 0.6.2 package -->
+<!-- Tue Feb 28 22:47:41 2017 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataGeoChartID17cc5be4090c () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -530,15 +652,15 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID6ad3e88b4a5() {
-var data = gvisDataGeoChartID6ad3e88b4a5();
+function drawChartGeoChartID17cc5be4090c() {
+var data = gvisDataGeoChartID17cc5be4090c();
 var options = {};
 options["width"] = 556;
 options["height"] = 347;
 options["projection"] = "kavrayskiy-vii";
 
     var chart = new google.visualization.GeoChart(
-    document.getElementById('GeoChartID6ad3e88b4a5')
+    document.getElementById('GeoChartID17cc5be4090c')
     );
     chart.draw(data,options);
     
@@ -562,9 +684,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartGeoChartID6ad3e88b4a5);
+callbacks.push(drawChartGeoChartID17cc5be4090c);
 })();
-function displayChartGeoChartID6ad3e88b4a5() {
+function displayChartGeoChartID17cc5be4090c() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -588,15 +710,139 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID6ad3e88b4a5"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID17cc5be4090c"></script>
  
 <!-- divChart -->
   
-<div id="GeoChartID6ad3e88b4a5" 
+<div id="GeoChartID17cc5be4090c" 
   style="width: 556; height: 347;">
 </div>
 
-# Mapping Populations
+## Data summary
+
+<!-- ColumnChart generated in R 3.2.0 by googleVis 0.6.2 package -->
+<!-- Tue Feb 28 22:47:41 2017 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataColumnChartID17cc7d788fd () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"WGS",
+10,
+20,
+1
+],
+[
+"GBS",
+13,
+26,
+2
+],
+[
+"SNP-Chip",
+14,
+28,
+3
+],
+[
+"RNA-seq",
+10,
+20,
+1
+],
+[
+"ChIP-seq",
+13,
+26,
+2
+],
+[
+"MNase",
+14,
+28,
+3
+] 
+];
+data.addColumn('string','country');
+data.addColumn('number','Geno');
+data.addColumn('number','Size');
+data.addColumn('number','Study');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartColumnChartID17cc7d788fd() {
+var data = gvisDataColumnChartID17cc7d788fd();
+var options = {};
+options["allowHtml"] = true;
+
+    var chart = new google.visualization.ColumnChart(
+    document.getElementById('ColumnChartID17cc7d788fd')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartColumnChartID17cc7d788fd);
+})();
+function displayChartColumnChartID17cc7d788fd() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartColumnChartID17cc7d788fd"></script>
+ 
+<!-- divChart -->
+  
+<div id="ColumnChartID17cc7d788fd" 
+  style="width: 500; height: automatic;">
+</div>
+
+## Mapping Populations
 
 
 

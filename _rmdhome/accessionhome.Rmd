@@ -17,6 +17,17 @@ library("googleVis")
 op <- options(gvis.plot.tag='chart')
 ```
 
+## GBS Data Summary:
+
+```{r results='asis', echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+#library(data.table)
+df <- read.csv("~/Documents/Github/zbd/data/gbs_by_pop.csv")
+Table <- gvisTable(df, formats=list(Size="#,###"))
+plot(Table)
+
+```
+
+
 
 ## GRIN Germplasm 
 
@@ -34,7 +45,19 @@ plot(Geo)
 
 ```
 
-# Mapping Populations
+## Data summary
+
+```{r results='asis', echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+df=data.frame(country=c("WGS", "GBS", "SNP-Chip", "RNA-seq", "ChIP-seq", "MNase"), 
+              Geno=c(10,13,14, 10,13,14),
+              Size=c(10,13,14, 10,13,14)*2,
+              Study=c(1,2,3,1,2,3))
+
+Column <- gvisColumnChart(df)
+plot(Column)
+```
+
+## Mapping Populations
 
 
 
