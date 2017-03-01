@@ -22,6 +22,7 @@ op <- options(gvis.plot.tag='chart')
 ```{r results='asis', echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
 #library(data.table)
 df <- read.csv("~/Documents/Github/zbd/data/gbs_by_pop.csv")
+
 Table <- gvisTable(df, formats=list(Size="#,###"))
 plot(Table)
 
