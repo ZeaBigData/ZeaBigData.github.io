@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Accession Naming Convention"
+date: 2017-02-28
+author: Jinliang Yang
+editor: 
+reviewer: 
+categories: [general]  
+tags: [Accession]  
+comments: false  
+archive: true
+---
+
+
+
+We define a unique ID for each accession. 
+To avoid further confusion with the existing ID, the accession ID should be obtainable, e.g. from GRIN.
+But in our naming system, we only allow capitalized letters and numbers. Any other characters will be replaces with NONE, including spaces, underscores, dashes, commas, etc. 
+
+For example,
+- "PI 1234" => "PI1234"
+- "Clze_3" => "CLZE3"
+
+In `R`, it will allow us to merge data by this unique ID.
+
+```{r, eval=FALSE}
+uid <- toupper(gsub("[^a-zA-Z0-9]", "", uid))
+```
+
+
