@@ -23,15 +23,12 @@ op <- options(gvis.plot.tag='chart')
 Total Number of Accessions in GRIN genebank: [N=13,131](../page/accession/index.html)
 
 ```{r results='asis', echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
-library(data.table)
-d <- fread("~/Documents/Github/ZeaBigData/data/export_2017_02_07_03_48_11.csv", data.table=FALSE)
+#library(data.table)
+d <- read.csv("~/Documents/Github/zbd/data/grin_by_country.csv")
 #names(d)
 
-out <- as.data.frame(table(d$Origin))
-out <- subset(out, Var1 != "")
-
 library("googleVis")
-Geo=gvisGeoChart(out, locationvar="Var1",  colorvar="Freq",
+Geo=gvisGeoChart(d, locationvar="c1",  colorvar="Freq",
                  options=list(projection="kavrayskiy-vii"))
 plot(Geo)
 

@@ -14,18 +14,19 @@ archive: true
 
 
 
-# GRIN Germplasm 
-[N=13,131](../page/accession/index.html)
+## GRIN Germplasm 
+
+Total Number of Accessions in GRIN genebank: [N=13,131](../page/accession/index.html)
 
 <!-- GeoChart generated in R 3.2.0 by googleVis 0.6.2 package -->
-<!-- Tue Feb 28 17:00:52 2017 -->
+<!-- Tue Feb 28 20:15:42 2017 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoChartID17c6345c37b61 () {
+function gvisDataGeoChartID6ad3e88b4a5 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -55,71 +56,7 @@ var datajson =
 ],
 [
 "Argentina",
-40
-],
-[
-"Argentina Buenos Aires",
-24
-],
-[
-"Argentina Chaco",
-10
-],
-[
-"Argentina Chubut",
-17
-],
-[
-"Argentina Cordoba",
-14
-],
-[
-"Argentina Corrientes",
-1
-],
-[
-"Argentina Entre Rios",
-15
-],
-[
-"Argentina Formosa",
-1
-],
-[
-"Argentina Jujuy",
-1
-],
-[
-"Argentina La Pampa",
-13
-],
-[
-"Argentina La Rioja",
-5
-],
-[
-"Argentina Mendoza",
-71
-],
-[
-"Argentina Misiones",
-4
-],
-[
-"Argentina Neuquen",
-75
-],
-[
-"Argentina Rio Negro",
-12
-],
-[
-"Argentina San Luis",
-4
-],
-[
-"Argentina Tucuman",
-1
+308
 ],
 [
 "Australia",
@@ -127,11 +64,7 @@ var datajson =
 ],
 [
 "Austria",
-21
-],
-[
-"Austria Vienna",
-8
+29
 ],
 [
 "Azerbaijan",
@@ -159,15 +92,7 @@ var datajson =
 ],
 [
 "Bolivia",
-24
-],
-[
-"Bolivia Santa Cruz",
-5
-],
-[
-"Bolivia Tarija",
-1
+30
 ],
 [
 "Botswana",
@@ -175,107 +100,15 @@ var datajson =
 ],
 [
 "Brazil",
-143
-],
-[
-"Brazil Alagoas",
-4
-],
-[
-"Brazil Bahia",
-15
-],
-[
-"Brazil Ceara",
-12
-],
-[
-"Brazil Federal District",
-2
-],
-[
-"Brazil Goias",
-1
-],
-[
-"Brazil Maranhao",
-1
-],
-[
-"Brazil Mato Grosso",
-3
-],
-[
-"Brazil Mato Grosso do Sul",
-1
-],
-[
-"Brazil Para",
-1
-],
-[
-"Brazil Paraiba",
-4
-],
-[
-"Brazil Parana",
-4
-],
-[
-"Brazil Pernambuco",
-14
-],
-[
-"Brazil Rio de Janeiro",
-3
-],
-[
-"Brazil Rio Grande do Norte",
-6
-],
-[
-"Brazil Rio Grande do Sul",
-19
-],
-[
-"Brazil Santa Catarina",
-1
-],
-[
-"Brazil Sao Paulo",
-8
-],
-[
-"Brazil Sergipe",
-5
+247
 ],
 [
 "Bulgaria",
-17
-],
-[
-"Bulgaria Plovdiv",
-20
+37
 ],
 [
 "Burkina Faso",
-163
-],
-[
-"Burkina Faso Namentenga",
-1
-],
-[
-"Burkina Faso Sanmatenga",
-3
-],
-[
-"Burkina Faso Seno",
-1
-],
-[
-"Burkina Faso Yagha",
-3
+171
 ],
 [
 "Burundi",
@@ -291,31 +124,7 @@ var datajson =
 ],
 [
 "Canada",
-3
-],
-[
-"Canada Alberta",
-2
-],
-[
-"Canada Manitoba",
-10
-],
-[
-"Canada New Brunswick",
-1
-],
-[
-"Canada Ontario",
-34
-],
-[
-"Canada Quebec",
-11
-],
-[
-"Canada Saskatchewan",
-3
+64
 ],
 [
 "Chad",
@@ -323,199 +132,27 @@ var datajson =
 ],
 [
 "Chile",
-38
-],
-[
-"Chile Atacama",
-7
-],
-[
-"Chile Bio-Bio",
-91
-],
-[
-"Chile Coquimbo",
-33
-],
-[
-"Chile La Araucania",
-68
-],
-[
-"Chile Los Lagos",
-34
-],
-[
-"Chile Maule",
-91
-],
-[
-"Chile O'Higgins",
-11
-],
-[
-"Chile Santiago",
-56
-],
-[
-"Chile Valparaiso",
-46
+475
 ],
 [
 "China",
-89
-],
-[
-"China Beijing",
-2
-],
-[
-"China Hebei",
-10
-],
-[
-"China Heilongjiang",
-3
-],
-[
-"China Jilin",
-3
-],
-[
-"China Shaanxi",
-12
+119
 ],
 [
 "Colombia",
-86
-],
-[
-"Colombia Amazonas",
-1
-],
-[
-"Colombia Antioquia",
-182
-],
-[
-"Colombia Arauca",
-1
-],
-[
-"Colombia Atlantico",
-29
-],
-[
-"Colombia Bolivar",
-53
-],
-[
-"Colombia Boyaca",
-103
-],
-[
-"Colombia Caldas",
-67
-],
-[
-"Colombia Caqueta",
-41
-],
-[
-"Colombia Cauca",
-117
-],
-[
-"Colombia Cesar",
-3
-],
-[
-"Colombia Choco",
-19
-],
-[
-"Colombia Cordoba",
-20
-],
-[
-"Colombia Cundinamarca",
-114
-],
-[
-"Colombia Guajira",
-3
-],
-[
-"Colombia Huila",
-59
-],
-[
-"Colombia Magdalena",
-56
-],
-[
-"Colombia Meta",
-9
-],
-[
-"Colombia Narino",
-104
-],
-[
-"Colombia Norte de Santander",
-28
-],
-[
-"Colombia Putumayo",
-33
-],
-[
-"Colombia Quindio",
-1
-],
-[
-"Colombia Santander",
-43
-],
-[
-"Colombia Tolima",
-75
-],
-[
-"Colombia Valle",
-62
+1309
 ],
 [
 "Costa Rica",
-32
-],
-[
-"Costa Rica Cartago",
-1
+33
 ],
 [
 "Croatia",
-22
-],
-[
-"Croatia Osjecko-baranjska zu",
-2
-],
-[
-"Croatia Vukovarsko-srijemska",
-1
-],
-[
-"Croatia Zagrebacka zupanija",
-1
+26
 ],
 [
 "Cuba",
-87
-],
-[
-"Cuba Villa Clara",
-1
+88
 ],
 [
 "Czechoslovakia",
@@ -523,15 +160,7 @@ var datajson =
 ],
 [
 "Dominican Republic",
-97
-],
-[
-"Dominican Republic La Vega",
-1
-],
-[
-"Dominican Republic Santiago",
-1
+99
 ],
 [
 "Ecuador",
@@ -539,19 +168,11 @@ var datajson =
 ],
 [
 "Egypt",
-3
-],
-[
-"Egypt Cairo",
-4
+7
 ],
 [
 "El Salvador",
-9
-],
-[
-"El Salvador La Libertad",
-1
+10
 ],
 [
 "Eritrea",
@@ -559,47 +180,7 @@ var datajson =
 ],
 [
 "Ethiopia",
-53
-],
-[
-"Ethiopia Gemu Gefa",
-2
-],
-[
-"Ethiopia Gojam",
-3
-],
-[
-"Ethiopia Gonder",
-3
-],
-[
-"Ethiopia Harer",
-4
-],
-[
-"Ethiopia Ilubabor",
-12
-],
-[
-"Ethiopia Kefa",
-4
-],
-[
-"Ethiopia Shewa",
-47
-],
-[
-"Ethiopia Tigre",
-2
-],
-[
-"Ethiopia Welega",
-11
-],
-[
-"Ethiopia Welo",
-4
+145
 ],
 [
 "Former Serbia and Montenegro",
@@ -607,19 +188,7 @@ var datajson =
 ],
 [
 "France",
-14
-],
-[
-"France Lot-et-Garonne",
-1
-],
-[
-"France Marne",
-1
-],
-[
-"France Puy-de-Dome",
-6
+22
 ],
 [
 "French Guiana",
@@ -631,11 +200,7 @@ var datajson =
 ],
 [
 "Germany",
-6
-],
-[
-"Germany Baden-Wurttemberg",
-1
+7
 ],
 [
 "Grenada",
@@ -647,31 +212,11 @@ var datajson =
 ],
 [
 "Guatemala",
-112
-],
-[
-"Guatemala Chiquimula",
-1
-],
-[
-"Guatemala Suchitepequez",
-1
+114
 ],
 [
 "Guinea",
-96
-],
-[
-"Guinea Kankan",
-6
-],
-[
-"Guinea Kouroussa",
-11
-],
-[
-"Guinea Siguiri",
-4
+117
 ],
 [
 "Guyana",
@@ -683,11 +228,7 @@ var datajson =
 ],
 [
 "Honduras",
-18
-],
-[
-"Honduras Olancho",
-1
+19
 ],
 [
 "Hungary",
@@ -695,27 +236,11 @@ var datajson =
 ],
 [
 "India",
-33
-],
-[
-"India Himachal Pradesh",
-1
-],
-[
-"India Punjab",
-1
-],
-[
-"India Rajasthan",
-1
+36
 ],
 [
 "Indonesia",
-2
-],
-[
-"Indonesia Java",
-3
+5
 ],
 [
 "Iran",
@@ -731,67 +256,7 @@ var datajson =
 ],
 [
 "Italy",
-2
-],
-[
-"Italy Abruzzi",
-5
-],
-[
-"Italy Apulia",
-1
-],
-[
-"Italy Basilicata",
-3
-],
-[
-"Italy Campania",
-5
-],
-[
-"Italy Emilia-Romagna",
-2
-],
-[
-"Italy Friuli-Venezia",
-7
-],
-[
-"Italy Latium",
-4
-],
-[
-"Italy Liguria",
-2
-],
-[
-"Italy Lombardy",
-7
-],
-[
-"Italy Marches",
-4
-],
-[
-"Italy Piedmont",
-8
-],
-[
-"Italy Sicily",
-1
-],
-[
-"Italy Trentino-Alto Adige",
-4
-],
-[
-"Italy Tuscany",
-8
-],
-[
-"Italy Veneto",
-20
+83
 ],
 [
 "Jamaica",
@@ -839,131 +304,7 @@ var datajson =
 ],
 [
 "Mexico",
-56
-],
-[
-"Mexico Aguascalientes",
-62
-],
-[
-"Mexico Baja Sur",
-2
-],
-[
-"Mexico Campeche",
-10
-],
-[
-"Mexico Chiapas",
-93
-],
-[
-"Mexico Chihuahua",
-175
-],
-[
-"Mexico Coahuila",
-63
-],
-[
-"Mexico Colima",
-11
-],
-[
-"Mexico Durango",
-68
-],
-[
-"Mexico Federal District",
-74
-],
-[
-"Mexico Guanajuato",
-112
-],
-[
-"Mexico Guerrero",
-88
-],
-[
-"Mexico Hidalgo",
-68
-],
-[
-"Mexico Jalisco",
-157
-],
-[
-"Mexico Mexico",
-89
-],
-[
-"Mexico Michoacan",
-82
-],
-[
-"Mexico Morelos",
-17
-],
-[
-"Mexico Nayarit",
-81
-],
-[
-"Mexico Nuevo Leon",
-18
-],
-[
-"Mexico Oaxaca",
-97
-],
-[
-"Mexico Puebla",
-122
-],
-[
-"Mexico Queretaro",
-34
-],
-[
-"Mexico Quintana Roo",
-10
-],
-[
-"Mexico San Luis Potosi",
-55
-],
-[
-"Mexico Sinaloa",
-20
-],
-[
-"Mexico Sonora",
-51
-],
-[
-"Mexico Tabasco",
-4
-],
-[
-"Mexico Tamaulipas",
-35
-],
-[
-"Mexico Tlaxcala",
-91
-],
-[
-"Mexico Veracruz",
-63
-],
-[
-"Mexico Yucatan",
-31
-],
-[
-"Mexico Zacatecas",
-69
+2008
 ],
 [
 "Moldova",
@@ -983,11 +324,7 @@ var datajson =
 ],
 [
 "Netherlands",
-5
-],
-[
-"Netherlands Gelderland",
-8
+13
 ],
 [
 "New Zealand North Island",
@@ -995,19 +332,11 @@ var datajson =
 ],
 [
 "Nicaragua",
-18
-],
-[
-"Nicaragua Chinandega",
-1
-],
-[
-"Nigeria",
 19
 ],
 [
-"Nigeria Oyo",
-16
+"Nigeria",
+35
 ],
 [
 "Oman",
@@ -1019,131 +348,15 @@ var datajson =
 ],
 [
 "Panama",
-22
-],
-[
-"Panama Panama",
-1
+23
 ],
 [
 "Paraguay",
-10
-],
-[
-"Paraguay Caaguazu",
-1
-],
-[
-"Paraguay Central",
-2
-],
-[
-"Paraguay Guaira",
-1
-],
-[
-"Paraguay Misiones",
-1
+15
 ],
 [
 "Peru",
-34
-],
-[
-"Peru Amazonas",
-34
-],
-[
-"Peru Ancash",
-256
-],
-[
-"Peru Apurimac",
-82
-],
-[
-"Peru Arequipa",
-62
-],
-[
-"Peru Ayacucho",
-11
-],
-[
-"Peru Cajamarca",
-53
-],
-[
-"Peru Cuzco",
-62
-],
-[
-"Peru Huancavelica",
-9
-],
-[
-"Peru Huanuco",
-62
-],
-[
-"Peru Ica",
-45
-],
-[
-"Peru Junin",
-53
-],
-[
-"Peru La Libertad",
-89
-],
-[
-"Peru Lambayeque",
-35
-],
-[
-"Peru Lima",
-230
-],
-[
-"Peru Loreto",
-36
-],
-[
-"Peru Madre de Dios",
-25
-],
-[
-"Peru Moquegua",
-9
-],
-[
-"Peru Pasco",
-21
-],
-[
-"Peru Piura",
-42
-],
-[
-"Peru Puno",
-3
-],
-[
-"Peru San Martin",
-123
-],
-[
-"Peru Tacna",
-39
-],
-[
-"Peru Tumbes",
-3
-],
-[
-"Peru Ucayali",
-30
+1448
 ],
 [
 "Philippines",
@@ -1151,11 +364,7 @@ var datajson =
 ],
 [
 "Poland",
-40
-],
-[
-"Poland Biala Podlaska",
-2
+42
 ],
 [
 "Portugal",
@@ -1175,11 +384,7 @@ var datajson =
 ],
 [
 "Russian Federation",
-15
-],
-[
-"Russian Federation Leningrad",
-8
+23
 ],
 [
 "Saudi Arabia",
@@ -1195,39 +400,15 @@ var datajson =
 ],
 [
 "South Africa",
-33
-],
-[
-"South Africa KwaZulu-Natal",
-23
-],
-[
-"South Africa Transvaal",
-49
-],
-[
-"South America",
-4
+109
 ],
 [
 "Soviet Union Caucasus",
-5
-],
-[
-"Soviet Union Former",
-104
-],
-[
-"Soviet Union Siberia",
-1
+110
 ],
 [
 "Spain",
-55
-],
-[
-"Spain Canary Islands",
-3
+58
 ],
 [
 "Sri Lanka",
@@ -1235,11 +416,7 @@ var datajson =
 ],
 [
 "St. Lucia",
-3
-],
-[
-"St. Vincent and Grenadines St. Vincent",
-9
+12
 ],
 [
 "Sudan",
@@ -1271,11 +448,7 @@ var datajson =
 ],
 [
 "Thailand",
-8
-],
-[
-"Thailand Nakhon Sawan",
-3
+11
 ],
 [
 "Togo",
@@ -1283,31 +456,11 @@ var datajson =
 ],
 [
 "Trinidad and Tobago Tobago",
-7
-],
-[
-"Trinidad and Tobago Trinidad",
-10
+17
 ],
 [
 "Turkey",
-554
-],
-[
-"Turkey Aydin",
-1
-],
-[
-"Turkey Balikesir",
-1
-],
-[
-"Turkey Mugla",
-1
-],
-[
-"Turkey Samsun",
-4
+561
 ],
 [
 "U.S. Outlying Islands Jarvis Island",
@@ -1319,203 +472,15 @@ var datajson =
 ],
 [
 "Ukraine",
-17
+20
 ],
 [
-"Ukraine Dnipropetrovsk",
-3
+"United States",
+2945
 ],
 [
 "United Kingdom England",
 2
-],
-[
-"United States",
-245
-],
-[
-"United States Alabama",
-6
-],
-[
-"United States Arizona",
-90
-],
-[
-"United States Arkansas",
-25
-],
-[
-"United States California",
-11
-],
-[
-"United States Colorado",
-100
-],
-[
-"United States Connecticut",
-18
-],
-[
-"United States Delaware",
-3
-],
-[
-"United States Florida",
-16
-],
-[
-"United States Georgia",
-62
-],
-[
-"United States Hawaii",
-14
-],
-[
-"United States Idaho",
-6
-],
-[
-"United States Illinois",
-173
-],
-[
-"United States Indiana",
-76
-],
-[
-"United States Iowa",
-372
-],
-[
-"United States Kansas",
-62
-],
-[
-"United States Kentucky",
-10
-],
-[
-"United States Louisiana",
-4
-],
-[
-"United States Maine",
-14
-],
-[
-"United States Maryland",
-18
-],
-[
-"United States Massachusetts",
-14
-],
-[
-"United States Michigan",
-89
-],
-[
-"United States Minnesota",
-234
-],
-[
-"United States Mississippi",
-29
-],
-[
-"United States Missouri",
-110
-],
-[
-"United States Montana",
-1
-],
-[
-"United States Nebraska",
-123
-],
-[
-"United States New Hampshire",
-2
-],
-[
-"United States New Jersey",
-7
-],
-[
-"United States New Mexico",
-41
-],
-[
-"United States New York",
-34
-],
-[
-"United States North Carolina",
-158
-],
-[
-"United States North Dakota",
-141
-],
-[
-"United States Ohio",
-49
-],
-[
-"United States Oklahoma",
-31
-],
-[
-"United States Oregon",
-3
-],
-[
-"United States Pennsylvania",
-109
-],
-[
-"United States Rhode Island",
-5
-],
-[
-"United States South Carolina",
-115
-],
-[
-"United States South Dakota",
-63
-],
-[
-"United States Tennessee",
-58
-],
-[
-"United States Texas",
-35
-],
-[
-"United States Utah",
-1
-],
-[
-"United States Virginia",
-65
-],
-[
-"United States West Virginia",
-8
-],
-[
-"United States Wisconsin",
-88
-],
-[
-"United States Wyoming",
-7
 ],
 [
 "Unknown",
@@ -1523,23 +488,7 @@ var datajson =
 ],
 [
 "Uruguay",
-324
-],
-[
-"Uruguay Canelones",
-1
-],
-[
-"Uruguay Colonia",
-1
-],
-[
-"Uruguay Lavalleja",
-1
-],
-[
-"Uruguay San Jose",
-23
+350
 ],
 [
 "Uzbekistan",
@@ -1547,11 +496,7 @@ var datajson =
 ],
 [
 "Venezuela",
-18
-],
-[
-"Venezuela Lara",
-1
+19
 ],
 [
 "Vietnam",
@@ -1559,15 +504,7 @@ var datajson =
 ],
 [
 "Virgin Islands (British)",
-14
-],
-[
-"Virgin Islands (U.S.)",
-1
-],
-[
-"Virgin Islands (U.S.) St. Croix",
-10
+25
 ],
 [
 "Yemen",
@@ -1586,22 +523,22 @@ var datajson =
 26
 ] 
 ];
-data.addColumn('string','Var1');
+data.addColumn('string','c1');
 data.addColumn('number','Freq');
 data.addRows(datajson);
 return(data);
 }
  
 // jsDrawChart
-function drawChartGeoChartID17c6345c37b61() {
-var data = gvisDataGeoChartID17c6345c37b61();
+function drawChartGeoChartID6ad3e88b4a5() {
+var data = gvisDataGeoChartID6ad3e88b4a5();
 var options = {};
 options["width"] = 556;
 options["height"] = 347;
 options["projection"] = "kavrayskiy-vii";
 
     var chart = new google.visualization.GeoChart(
-    document.getElementById('GeoChartID17c6345c37b61')
+    document.getElementById('GeoChartID6ad3e88b4a5')
     );
     chart.draw(data,options);
     
@@ -1625,9 +562,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartGeoChartID17c6345c37b61);
+callbacks.push(drawChartGeoChartID6ad3e88b4a5);
 })();
-function displayChartGeoChartID17c6345c37b61() {
+function displayChartGeoChartID6ad3e88b4a5() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1651,11 +588,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID17c6345c37b61"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID6ad3e88b4a5"></script>
  
 <!-- divChart -->
   
-<div id="GeoChartID17c6345c37b61" 
+<div id="GeoChartID6ad3e88b4a5" 
   style="width: 556; height: 347;">
 </div>
 
