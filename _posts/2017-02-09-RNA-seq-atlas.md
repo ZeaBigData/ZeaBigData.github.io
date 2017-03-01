@@ -50,8 +50,9 @@ have obtained the time course transcriptomes for embryonic shoot apical meristem
 - Zea mays subsp. mays strain: White Crystal
 
 
-### Dry seeds (0 hour) to hour 192 from [Yu et al., 2015](https://www.ncbi.nlm.nih.gov//pubmed/25918418).
+### Dry seeds (0 hour) to hour 192 
 
+- from [Yu et al., 2015](https://www.ncbi.nlm.nih.gov//pubmed/25918418).
 - **Study description**: Using 22 transcriptomes of developing maize leaves from dry seeds to 192 h post imbibition,
 we studied gene up- and down-regulation and functional transition during leaf development and inferred sets of strongly co-expressed genes.
 - **SRA Study ID**: [SRP044069](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP044069)
@@ -59,8 +60,9 @@ we studied gene up- and down-regulation and functional transition during leaf de
 - Zea mays subsp. mays strain: White Crystal
 
 
-### embryo (0 to 38 days), endosperm (6 to 38 days) and seed (0 to 28 days) every 2 hours (http://www.plantphysiol.org/content/early/2014/07/18/pp.114.240689).
+### embryo (0 to 38 days), endosperm (6 to 38 days) and seed (0 to 28 days) every 2 hours 
 
+- from [author](http://www.plantphysiol.org/content/early/2014/07/18/pp.114.240689).
 - **Study description**: the expression profile among the development of maize embryo, endosperm and seed
 - **SRA Study ID**: [SRP037559](https://www.ncbi.nlm.nih.gov/Traces/study/?WebEnv=NCID_1_50963555_130.14.22.76_5555_1486660269_3544543543_0MetA0_S_HStore&query_key=76)
 - **Data Size**: 178.99 Gbp; and 112.14 Gb in size
@@ -75,16 +77,18 @@ we studied gene up- and down-regulation and functional transition during leaf de
 - Zea mays subsp. mays strain: B73xMo17 and Mo17xB73
 
 
-### cell type specific transcritome of endosperm, embryo and kernel (http://www.plantcell.org/content/early/2015/03/17/tpc.114.135657.abstract).
+### cell type specific transcritome of endosperm, embryo and kernel 
 
+-[author](http://www.plantcell.org/content/early/2015/03/17/tpc.114.135657.abstract).
 - **Study description**: we profiled the mRNAs in five major cell types of the differentiating endosperm and in the embryo and four maternal compartments of the maize (Zea mays) kernel.
 - **SRA Study ID**: [GSE62778](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62778)
 - **Data Size**: 53.03 Gbp; and 34.30 Gb in size
 - Zea mays subsp. mays strain: B73
 
 
-### transcriptome of kernel and endosperm 0 to 12 days (http://www.pnas.org/content/111/21/7582.short).
+### transcriptome of kernel and endosperm 0 to 12 days
 
+- [author](http://www.pnas.org/content/111/21/7582.short).
 - **Study description**: we profiled all mRNAs in the maize kernel and endosperm at eight successive stages during the first 12 d after pollination.
 - **SRA Study ID**: [GSE54131](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54131)
 - Zea mays subsp. mays strain: B73
