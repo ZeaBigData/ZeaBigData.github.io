@@ -1,0 +1,43 @@
+---
+layout: home
+title: "Post Template using Rmd"
+date: 2015-01-01
+title: "Accessions"
+author: "Jinliang Yang"
+categories: [tutorial, general]  
+tags: [github, general, markdown, jekyll, rstats, servr]  
+comments: true  
+archive: true
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library("googleVis")
+op <- options(gvis.plot.tag='chart')
+```
+
+
+## GRIN Germplasm 
+
+Total Number of Accessions in GRIN genebank: [N=13,131](../page/accession/index.html)
+
+```{r results='asis', echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+library(data.table)
+d <- fread("~/Documents/Github/ZeaBigData/data/export_2017_02_07_03_48_11.csv", data.table=FALSE)
+#names(d)
+
+out <- as.data.frame(table(d$Origin))
+out <- subset(out, Var1 != "")
+
+library("googleVis")
+Geo=gvisGeoChart(out, locationvar="Var1",  colorvar="Freq",
+                 options=list(projection="kavrayskiy-vii"))
+plot(Geo)
+
+```
+
+# Mapping Populations
+
+
+
