@@ -54,6 +54,4 @@ Some large scale RNA-seq data sets for diverse lines.
 - **Phenotype**: some leaf traits and flowering time traits from [Hirsch et al., 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3963563/)
 
 
-### 4. example!
-
 
